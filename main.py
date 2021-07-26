@@ -77,7 +77,7 @@ search_label=tk.Label(window,
 
 search_label.place(y=336)
 
-filter_text=StringVar(window)
+filter_text= tk.StringVar(window)
 filter_text.set("")
 
 

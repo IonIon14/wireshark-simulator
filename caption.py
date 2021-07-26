@@ -1,7 +1,7 @@
-from scapy.all import *
-from tkinter import *
+from scapy.sendrecv import sniff
+
 from packet import *
-import io
+
 import matplotlib.pyplot as plt
 from scapy.layers.inet import IP,TCP,Ether,UDP
 import functools
